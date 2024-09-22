@@ -24,6 +24,6 @@ if __name__ == '__main__':
 
     senderMail = config['senderEmail']
     senderPassword = config['senderPassword']
-    toMail = "memirhansumer@gmail.com"
+    toMail = "memirhansumer@gmail.com" # Emaili göndereceğiniz eposta adresini giriniz
 
     sender("GitHub", "memirhan", senderMail, toMail, senderPassword)
